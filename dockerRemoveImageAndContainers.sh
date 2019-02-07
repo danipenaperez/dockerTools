@@ -20,7 +20,7 @@ EOF
 
 #Set vars
 IMAGE_NAME=$1
-IMAGE_VERSION='lastest'
+IMAGE_VERSION='latest'
 if [ "$2" ]
 then
 IMAGE_VERSION=$2
