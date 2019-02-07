@@ -85,7 +85,7 @@ else
 	fi
 	#GET Container ID List
 	DOCKER_IMAGES_LIST_ID=$(docker images |grep $IMAGE_NAME| grep $IMAGE_VERSION | awk '{print $3}')
-	docker rmi $DOCKER_IMAGES_LIST_ID
+	docker rmi -f $DOCKER_IMAGES_LIST_ID
 	echo 'Succesfully deleted Docker Images -> ' $DOCKER_IMAGES_LIST_ID
 fi	
 
