@@ -16,6 +16,6 @@ This script remove images based on Repository or repository:version , and all re
 
 ## Authors
 
-* **Daniel Peña Perez** - *Initial work* - [PurpleBooth](https://github.com/danipenaperez)
+* **Daniel Peña Perez** - *Initial work* - [Profile](https://github.com/danipenaperez)
 
 See also the list of [contributors](github.com/danipenaperez/dockerTools/contributors) who participated in this project.
