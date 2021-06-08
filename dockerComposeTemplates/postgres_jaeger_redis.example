@@ -24,10 +24,12 @@ services:
       - "16686:16686"
       - "14268:14268"
       - "9411:9411"
+  #https://kb.objectrocket.com/redis/run-redis-with-docker-compose-1055
   redis:
     network_mode: host
     image: "bitnami/redis"
     command: redis-server --requirepass sOmE_sEcUrE_pAsS
+  
   #redis:
   #  network_mode: host
   #  image: "bitnami/redis"
