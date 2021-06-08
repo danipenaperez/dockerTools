@@ -27,8 +27,12 @@ services:
   redis:
     network_mode: host
     image: "bitnami/redis"
-    environment:
-      - ALLOW_EMPTY_PASSWORD=yes
+    command: redis-server --requirepass sOmE_sEcUrE_pAsS
+  #redis:
+  #  network_mode: host
+  #  image: "bitnami/redis"
+  #  environment:
+  #    - ALLOW_EMPTY_PASSWORD=yes
 volumes:
   postgresql:
   postgres11-data:
